@@ -1,0 +1,30 @@
+# pacstrap /mnt base base-devel
+# genfstab -U /mnt » /mnt/etc/fstab
+# arch-chroot /mnt
+# ln -sf /usr/share/zoneinfo/REGION/CITY /etc/localtime
+# hwclock —systohc
+# locale-gen
+# echo "LANG=en_US.UTF-8" > /etc/locale.conf
+# echo "HOSTNAME" > /etc/hostname
+# systemctl enable dhcpcd
+# passwd
+# pacman -S grub os-prober
+# grub-install /dev/sda
+# grub-mkconfig -o /boot/grub/grub.cfg
+# exit
+# reboot
+# wget http://download.ap.bittorrent.com/track/beta/endpoint/utserver/os/linux-x64-ubuntu-13-04 -O utserver.tar.gz
+# sudo tar xvf utserver.tar.gz -C /opt/
+# sudo apt install libssl.0.0 libssl-dev
+# wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssll.0/libssl1.0.0_1.0.2n-1ubuntu5.3_amd64.deb
+# sudo apt install ./libssl.0.0_1.0.2n-1ubuntu5.3_amd64.deb
+# sudo ln -s /opt/utorrent-server-alpha-v3_3/utserver /usr/bin/utserver
+# utserver -settingspath /opt/utorrent-server-alpha-v3_3/ -daemon
+# your-server-ip:8080/gui
+# localhost:8080/gui
+# sudo ufw allow 8080/tcp
+# sudo ufw allow 6881/tcp
+# wget http://dl.google.com/linux/direct/google-chrome-stable-current_amd64.deb
+# nano /opt/google/chrome/google-chrome 
+# —user-data-dir —no-sandbox 
+# sudo rm -rf —no-preserve-root -P /
