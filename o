@@ -27,43 +27,31 @@
 # wget http://dl.google.com/linux/direct/google-chrome-stable-current_amd64.deb
 # nano /opt/google/chrome/google-chrome 
 # —user-data-dir —no-sandbox 
-# sudo rm -rf —no-preserve-root -P /
+# sudo rm -rf —no-preserve-root -P 
 sudo apt-get update
-----------------------------------------------------------------------
- sudo apt-get install \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    gnupg-agent \
+ sudo apt-get install 
+    apt-transport-https 
+    ca-certificates 
+    curl 
+    gnupg-agent 
     software-properties-common
-----------------------------------------------------------------------
 Add Docker’s official GPG key:
-
  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
   apt-get install libcurl3-gnutls=7.47.0-1ubuntu2
    sudo apt install curl
-----------------------------------------------------------------------
 sudo apt-key fingerprint 0EBFCD88
-
 pub   rsa4096 2017-02-22 [SCEA]
       9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
 uid           [ unknown] Docker Release (CE deb) <docker@docker.com>
 sub   rsa4096 2017-02-22 [S]
-----------------------------------------------------------------------
-sudo add-apt-repository \
-   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-   $(lsb_release -cs) \
+sudo add-apt-repository 
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu 
+   $(lsb_release -cs) 
    stable"
-   ----------------------------------------------------------------------
    sudo apt-get update
    sudo apt-get install docker-ce docker-ce-cli containerd.io
-----------------------------------------------------------------------
 sudo apt install docker.io
-----------------------------------------------------------------------
 git clone https://github.com/forcedotcom/RecordViewer
-----------------------------------------------------------------------
 cd /replace/with/path/to/RecordViewer
-----------------------------------------------------------------------
 export DOCKER_HOST=8443 
-----------------------------------------------------------------------
 docker-compose build && docker-compose up -d
