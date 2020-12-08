@@ -30,7 +30,7 @@
 # sudo rm -rf —no-preserve-root -P 
 add docker’s official gpg key:
  curl -fsSL https://download.docker.com/linux/ubuntu/gpg 
-  apt-get install libcurl3-gnutls=7.47.0-1ubuntu2
+  apt-get install libcurl#########################-gnutls=#########################-1ubuntu2
 sudo rpm --import package-signing-key 
 sudo rpm -K #########################
 sudo dnf install #########################
