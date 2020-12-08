@@ -32,3 +32,5 @@ add docker’s official gpg key:
  curl -fsSL https://download.docker.com/linux/ubuntu/gpg 
   apt-get install libcurl3-gnutls=7.47.0-1ubuntu2
 sudo rpm --import package-signing-key.pub
+sudo rpm -K zoom_x86_64.rpm
+sudo dnf install zoom_x86_64.rpm
