@@ -13,17 +13,17 @@
 # grub-mkconfig -o /boot/grub/grub.cfg
 # exit
 # reboot
-# wget http://download.ap.bittorrent.com/track/beta/endpoint/utserver/os/linux-x64-ubuntu-13-04 -O utserver.tar.gz
+# wget http://download.ap.bittorrent.com/track/beta/endpoint/utserver/os/linux/#########################/######################### -O utserver.tar.gz
 # sudo tar xvf utserver.tar.gz -C /opt/
-# sudo apt install libssl.0.0 libssl-dev
-# wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssll.0/libssl1.0.0_1.0.2n-1ubuntu5.3_amd64.deb
-# sudo apt install ./libssl.0.0_1.0.2n-1ubuntu5.3_amd64.deb
-# sudo ln -s /opt/utorrent-server-alpha-v3_3/utserver /usr/bin/utserver
-# utserver -settingspath /opt/utorrent-server-alpha-v3_3/ -daemon
-# your-server-ip:8080/gui
-# localhost:8080/gui
-# sudo ufw allow 8080/tcp
-# sudo ufw allow 6881/tcp
+# sudo apt install ######################### libssl-dev
+# wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl#########################/libssl#########################n-1#########################_amd64.deb
+# sudo apt install ./libss#########################-#########################amd64.deb
+# sudo ln -s /opt/utorrent-server-alpha-v#########################/utserver /usr/bin/utserver
+# utserver -settingspath /opt/utorrent-server-alpha-v#########################/ -daemon
+# your-server-ip:#########################/gui
+# localhost:#########################/gui
+# sudo ufw allow #########################/tcp
+# sudo ufw allow #########################/tcp
 # wget http://dl.google.com/linux/direct/google-chrome-stable-current_amd64.deb
 # nano /opt/google/chrome/google-chrome 
 # —user-data-dir —no-sandbox 
@@ -31,6 +31,6 @@
 add docker’s official gpg key:
  curl -fsSL https://download.docker.com/linux/ubuntu/gpg 
   apt-get install libcurl3-gnutls=7.47.0-1ubuntu2
-sudo rpm --import package-signing-key.pub
-sudo rpm -K zoom_x86_64.rpm
-sudo dnf install zoom_x86_64.rpm
+sudo rpm --import package-signing-key 
+sudo rpm -K #########################
+sudo dnf install #########################
