@@ -1,2 +1,2 @@
 # main
-quick-guide-to-avoiding-windows
+QUICK-GUIDE-TO-AVOIDING-WINDOWS
