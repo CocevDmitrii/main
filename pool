@@ -1,18 +1,3 @@
-# pacstrap /mnt base base-devel
-# genfstab -U /mnt » /mnt/etc/fstab
-# arch-chroot /mnt
-# ln -sf /usr/share/zoneinfo/REGION/CITY /etc/localtime
-# hwclock —systohc
-# locale-gen
-# echo "LANG=en_US.UTF-8" > /etc/locale.conf
-# echo "HOSTNAME" > /etc/hostname
-# systemctl enable dhcpcd
-# passwd
-# pacman -S grub os-prober
-# grub-install /dev/sda
-# grub-mkconfig -o /boot/grub/grub.cfg
-# exit
-# reboot
 # wget http://download.ap.bittorrent.com/track/beta/endpoint/utserver/os/linux/#########################/######################### -O utserver.tar.gz
 # sudo tar xvf utserver.tar.gz -C /opt/
 # sudo apt install ######################### libssl-dev
