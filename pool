@@ -17,4 +17,4 @@
 # sudo rpm --import package-signing-key 
 # sudo rpm -K #########################
 # sudo dnf install #########################
-# mv ~/Downloads/*.mp3 ~/Music/
+# mv ~/Music/*.mp3 ~/media/cocevdmitrii/1234-5678
