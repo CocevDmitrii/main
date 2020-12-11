@@ -10,12 +10,11 @@
 # sudo ufw allow #########################/tcp
 # sudo ufw allow #########################/tcp
 # wget http://dl.google.com/linux/direct/google-chrome-stable-current_amd64.deb
-# nano /opt/google/chrome/google-chrome 
-# —user-data-dir —no-sandbox 
+# nano /opt/google/chrome/google-chrome // —user-data-dir —no-sandbox 
 # sudo rm -rf —no-preserve-root -P 
-add docker’s official gpg key:
- curl -fsSL https://download.docker.com/linux/ubuntu/gpg 
-  apt-get install libcurl#########################-gnutls=#########################-1ubuntu2
-sudo rpm --import package-signing-key 
-sudo rpm -K #########################
-sudo dnf install #########################
+# curl -fsSL https://download.docker.com/linux/ubuntu/gpg 
+# apt-get install libcurl#########################-gnutls=#########################-1ubuntu2
+# sudo rpm --import package-signing-key 
+# sudo rpm -K #########################
+# sudo dnf install #########################
+# mv ~/Downloads/*.mp3 ~/Music/
