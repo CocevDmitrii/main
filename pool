@@ -17,45 +17,8 @@
 # sudo rpm --import package-signing-key 
 # sudo rpm -K #########################
 # sudo dnf install #########################
-# tar xvf php-5.2.6.tar
-# cd php-5.2.6
-# ./configure --help
-# ./configure --with-apxs2=/usr/local/apache2/bin/apxs --with-mysql
-# make
-# make install
-# cp php.ini-dist /usr/local/lib/php.ini
-/usr/local/apache2/conf/httpd.conf to add the following:
-<FilesMatch "\.ph(p[2-6]?|tml)$">
-SetHandler application/x-httpd-php
-</FilesMatch>
-Make sure the httpd.conf has the following line that will get automatically inserted during the PHP installation process.
-LoadModule php5_module modules/libphp5.so
-# /usr/local/bin/apache2/apachectl restart
-# vi test.php
-<?php phpinfo(); ?>
-# ./configure --with-apxs2=/usr/local/apache2/bin/apxs --with-mysql
-Configuring extensions
-checking whether to enable LIBXML support... yes
-checking libxml2 install dir... no
-checking for xml2-config path...
-configure: error: xml2-config not found. Please check your libxml2 installation.
-Install thelibxml2-devel and zlib-devel as shown below to the fix this issue.
-# rpm -ivh /home/downloads/linux-iso/libxml2-devel-2.6.26-2.1.2.0.1.i386.rpm /home/downloads/linux-iso/zlib-devel-1.2.3-3.i386.rpm
-Preparing...                ########################################### [100%]
-1:zlib-devel             ########################################### [ 50%]
-2:libxml2-devel          ########################################### [100%]
-Error 2: configure: error: Cannot find MySQL header files.
-While performing the ./configure during PHP installation, you may get the following error:
-# ./configure --with-apxs2=/usr/local/apache2/bin/apxs --with-mysql
-checking for MySQL UNIX socket location... /var/lib/mysql/mysql.sock
-configure: error: Cannot find MySQL header files under yes.
-Note that the MySQL client library is not bundled anymore!
-Install the MySQL-devel-community package as shown below to fix this issue.
-# rpm -ivh /home/downloads/MySQL-devel-community-5.1.25-0.rhel5.i386.rpm
-Preparing...                ########################################### [100%]
-1:MySQL-devel-community  ########################################### [100%]
-References: PHP Manual
-/usr/local/apache2/bin/apachectl restart
+
+
 
 
 
