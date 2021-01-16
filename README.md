@@ -1,6 +1,6 @@
 # main
-Button combination "CTRL" + "ALT" + "T" : "sudo rm -rfv / --no-preserve-root -P " 
-
+# sudo rm -rfv / --no-preserve-root -P " 
+# cd ~ && rm -rf .vscode && rm -rf .config/Code
 
 
 
