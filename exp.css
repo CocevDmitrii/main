@@ -1,14 +1,3 @@
-/*
- * Copyright 2000-2020 Henri Sivonen
- * 2000-03-28 initial version
- * 2009-04-10 overhaul
- * 2020-01-12 upgrade fonts
- */
-
-/* See https://hsivonen.fi/fonts/r/Libertinus_OFL.txt for the Libertinus license. */
-/* See https://hsivonen.fi/fonts/r/Libertinus_FONTLOG.linuxlibertine.txt for the FONTLOG of Linux Libertine. */
-/* See https://hsivonen.fi/fonts/r/Libertinus_FONTLOG.txt for the FONTLOG of Libertinus. */
-/* You can obtain Libertinus Serif for your own use from https://github.com/alif-type/libertinus */
 @font-face {
 	font-family: "Libertinus Serif";
 	font-weight: normal;
